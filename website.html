@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lady-Birds | Riot Grrrl Band</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+            overflow-x: hidden;
+            position: relative;
+        }
+        header {
+            background-color: #ff69b4;
+            color: black;
+            padding: 2rem 0;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 3rem;
+            font-weight: bold;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 5px solid black;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header h1::before {
+            content: "Lady-Birds";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            font-size: 7rem;
+            color: rgba(255, 255, 255, 0.1);
+            z-index: -1;
+            transform: rotate(-15deg);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0 0 0;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav ul li {
+            margin: 0 2rem;
+            position: relative;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        nav ul li a:hover {
+            color: #ff69b4;
+            font-size: 1.6rem;
+            letter-spacing: 2px;
+        }
+        section {
+            padding: 5rem 2rem;
+            text-align: center;
+            background-color: #333;
+            border-bottom: 5px solid white;
+            color: #ff69b4;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+        section h2 {
+            font-size: 3rem;
+            margin: 1rem 0;
+            color: #ff69b4;
+            text-transform: uppercase;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3rem 0;
+            font-size: 1.3rem;
+            position: relative;
+            z-index: 1;
+        }
+        footer p {
+            margin: 0;
+        }
+        .drummer-ad {
+            background-color: #ff69b4;
+            color: black;
+            padding: 3rem 2rem;
+            text-align: center;
+            margin: 2rem 0;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border: 2px dashed white;
+            border-radius: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        .drummer-ad h2 {
+            font-size: 2.5rem;
+            color: black;
+        }
+        .drummer-ad p {
+            font-size: 1.2rem;
+            color: black;
+        }
+        .drummer-ad a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .drummer-ad a:hover {
+            color: #ff69b4;
+        }
+        .donate-section {
+            background-color: #333;
+            padding: 3rem 2rem;
+            text-align: center;
+            border: 5px solid #ff69b4;
+            margin: 3rem 0;
+        }
+        .donate-section h2 {
+            font-size: 3rem;
+            color: #ff69b4;
+        }
+        .donate-section p {
+            font-size: 1.5rem;
+            color: white;
+        }
+        .donate-section button {
+            background-color: #ff69b4;
+            color: black;
+            font-size: 1.2rem;
+            padding: 1rem 2rem;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .donate-section button:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lady-Birds</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#gigs">Gigs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#drummer">Join Us</a></li>
+                <li><a href="#donate">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are Lady-Birds, a Riot Grrrl band ready to take over the world with raw, punk energy and feminist power! Formed in 2024, we bring grunge, rebellion, and DIY visuals. Our music challenges norms, smashes stereotypes, and empowers anyone who listens to it. From barbed wire lyrics to chains that bind us, we scream against the patriarchy!</p>
+    </section>
+
+    <section id="music">
+        <h2>Our Music</h2>
+        <p>Check out our loud, unapologetic music:</p>
+        <ul>
+            <li><a href="#">"Rebel Wings" - Listen Now</a></li>
+            <li><a href="#">"Buzz" - Stream Here</a></li>
+            <li><a href="#">"Lady Like a Storm" - Watch Video</a></li>
+        </ul>
+    </section>
+
+    <section id="gigs">
+        <h2>Upcoming Gigs</h2>
+        <ul>
+            <li>December 10, 2024 - The Hive Club, London</li>
+            <li>January 15, 2025 - Punk Fest, Manchester</li>
+            <li>March 3, 2025 - Riot Rising Festival, Glasgow</li>
+        </ul>
+    </section>
+
+    <section id="drummer" class="drummer-ad">
+        <h2 style="color: black;">We're Looking for a Drummer!</h2>
+        <p>Are you passionate about punk, rebellion, and feminist power? Lady-Birds is on the lookout for a skilled and dedicated drummer to join our riot grrrl band. If you live for loud, unapologetic music and want to be a part of something that challenges the norms, we want to hear from you!</p>
+        <p>Contact us today at <a href="mailto:ladybirdmusic@protonmail.com">ladybirdmusic@protonmail.com</a> and let's make some noise!</p>
+    </section>
+
+    <section id="donate" class="donate-section">
+        <h2>Support Lady-Birds</h2>
+        <p>Your donations help us continue to make music, play shows, and spread the riot grrrl message. Every little bit counts!</p>
+        <button onclick="window.location.href='https://www.paypal.com/donate?hosted_button_id=EXAMPLEID'">Donate Now</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For bookings and inquiries, email us at: <a href="mailto:ladybirdmusic@protonmail.com">ladybirdmusic@protonmail.com</a></p>
+        <p>Follow us on social media:</p>
+        <ul>
+            <li><a href="https://www.instagram.com/ladybirdsrock_" target="_blank">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@ladybirdsrock" target="_blank">TikTok</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lady-Birds. All rights reserved.</p>
+    </footer>
+</body>
+</html>
